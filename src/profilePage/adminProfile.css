@@ -1,0 +1,33 @@
+.admin-des img{
+    width: 1000px;
+
+}
+.dashboard{
+    display: flex;
+    /* gap: 20px; */
+}
+
+.d1 img{
+    width: 400px;
+}
+
+.d-button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    background-color: #4D4D4D;
+color: white;
+}
+.d-button:hover{
+    cursor: pointer;
+}
+@media(max-width: 1439px)
+{
+    .d1 img{
+        width: 300px;
+    }
+}

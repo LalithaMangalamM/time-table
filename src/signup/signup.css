@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap');
+.form1{
+    width: 700px;
+    height: 550px;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hii{
+    display:inline-flex;
+    width: 40px;
+    height: 40px;
+}
+
+.fit{
+    font-weight: 200;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+.pass{
+    display: flex;
+}
+.toggle{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: -40px;
+}
+.already{
+    font-weight: 200;
+    font-size: 18px;
+}
+.log{
+    font-weight: 600;
+}
+.log:hover{
+    cursor: pointer;
+}
+
+.signupButton{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #4D4D4D;
+    border-radius: 15px;
+    border: none;
+}
+.signupButton:hover{
+    cursor: pointer ;
+}
+@media (max-width: 1439px){
+    .form1{
+        margin-top: -200px;
+        height: 600px;
+        /* width: 400px; */
+    }
+    label{
+        font-size: 18px;
+    }
+    
+}

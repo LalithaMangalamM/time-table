@@ -1,0 +1,17 @@
+/* Scroll container */
+.scroll-container {
+    overflow-y: scroll;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Other browsers */
+    height: 100vh;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+  
+  /* Style the scrollbar for WebKit (Chrome, Safari) */
+  .scroll-container::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }

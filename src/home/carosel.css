@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9C8B9;
+    margin: 0;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    letter-spacing: 0.5px;
+    font-family: 'Khula', sans-serif;
+    overflow: hidden;
+    margin-top: -100px;
+}
+
+.slider {
+    height: 287px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    animation: scroll 250s linear infinite;
+}
+
+.slide {
+    height: 200px;
+    width: 550px;
+    padding: 150px;
+    perspective: 150px;
+}
+
+.circle-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.circle-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 1s;
+}
+
+.circle-image:hover {
+    transform: translateZ(20px);
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, #D9C8B9 0.5%, rgba(211, 204, 204, 0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 10%;
+    z-index: 1;
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 42));
+    }
+}

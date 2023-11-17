@@ -1,0 +1,59 @@
+.res {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 23px;
+    overflow: hidden; /* Hide the scrollbar */
+  }
+  
+  .res > div {
+    width: 550px;
+    max-height: 80px; /* Set the maximum height to control the visible content */
+  }
+  
+  /* Add the rest of your existing styles */
+  .res img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .res > div p {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+  
+  .res button {
+    justify-content: flex-end;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4d4d4d;
+    color: #fff;
+    font-size: 20px;
+  }
+.res:hover{
+    background-color: #efefef;
+    cursor: pointer;
+}
+.res1{
+    padding: 10px 20px;
+    font-size: 36px;
+
+}
+
+.res1:hover{
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+@media (max-width: 1440px){
+    .res{
+        font-size: 20px;
+    }
+    .res1{
+        font-size: 24px;
+    }
+   
+}

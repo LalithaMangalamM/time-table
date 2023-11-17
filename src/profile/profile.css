@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Caveat:wght@600&family=Inder&family=Josefin+Sans&family=Khula:wght@300&family=Libre+Baskerville&family=Poppins:wght@100;200&display=swap');
+
+.wrapper-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data-wrap{
+    background-color: #fff;
+    width: 600px;
+    display: flex;
+    margin: 40px;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: -1px;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.profile-pic{
+    width: fit-content;
+    height: fit-content;
+    margin-top: -5px;
+}
+.profile-pic img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 25px;
+
+}
+.data-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.field{
+    display: flex;
+    width: 490px;
+    border: 1px solid #4d4d4d;
+    border-radius: 11px;
+    padding: 10px;
+
+}
+
+.field-content{
+    padding: 0;
+    margin: 0;
+    font-family: 'Khula', sans-serif;
+font-size: 20px;
+/* font-weight: 600; */
+}
+.span{
+    font-weight: 500px;
+}
+.password{
+    font-family: 'Khula', sans-serif;
+    width: 190px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+    background-color: #4d4d4d;
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.scroll-container {
+    overflow-y: scroll;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Other browsers */
+    height: 100vh;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+  
+  /* Style the scrollbar for WebKit (Chrome, Safari) */
+  .scroll-container::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  

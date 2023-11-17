@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap');
+.forml{
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.form-contentl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hiil{
+    display:inline-flex;
+    width: 40px;
+    height: 40px;
+}
+
+.fitl{
+    font-weight: 200;
+}
+.headingl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.inputl{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+.passl{
+    display: flex;
+}
+.togglel{
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: -40px;
+}
+.alreadyl{
+    font-weight: 200;
+    font-size: 18px;
+}
+.logl{
+    font-weight: 600;
+}
+
+.signupButtonl{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #4D4D4D;
+    border-radius: 15px;
+    border: none;
+}

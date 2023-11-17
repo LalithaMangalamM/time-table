@@ -1,0 +1,8 @@
+.logoo{
+    width: 170px;
+}
+@media (max-width: 1440px){
+    .logoo{
+        
+    }
+}

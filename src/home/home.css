@@ -1,0 +1,217 @@
+/* Font imports */
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Caveat:wght@600&family=Inder&family=Josefin+Sans&family=Khula:wght@300&family=Libre+Baskerville&family=Poppins:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Caveat:wght@600&family=Inder&family=Josefin+Sans&family=Khula:wght@300;600;700&family=Libre+Baskerville&family=Poppins:wght@100;200&display=swap");
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: "Khula", sans-serif;
+  overflow: hidden; /* Hide the default scrollbar */
+}
+
+/* Scroll container */
+.scroll-container {
+  overflow-y: scroll;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Other browsers */
+  height: 100vh;
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* Style the scrollbar for WebKit (Chrome, Safari) */
+.scroll-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Your existing styles */
+.line1 {
+  width: 500px;
+  height: 300px;
+  margin-top: -20px;
+  margin-left: 35px;
+  display: flex;
+}
+
+.line2 {
+  width: 100%;
+  height: 600px;
+  margin-top: -240px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.l1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.l2 {
+  font-weight: 700;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.sche {
+  background: linear-gradient(#ef6300, #878787);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.getstart {
+  background-color: #4d4d4d;
+  width: 163px;
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: white;
+  border: none;
+  margin-top: -20px;
+  padding: 0;
+}
+.getstart:hover {
+  cursor: pointer;
+}
+
+/* Overlay and Popup styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 1px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 5.5px rgba(237, 185, 152, 0.441);
+  z-index: 2;
+}
+.meet {
+  margin: 0;
+  padding: 0;
+  margin-top: -200px;
+  font-family: "Khula", sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  width: fit-content;
+  margin-left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background: rgba(243, 255, 18, 0.7);
+  box-shadow: 55px 30px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.vid img {
+  width: 1100px;
+  height: 1100px;
+}
+.vid {
+  width: 1000px;
+}
+.fac-des img {
+  width: 900px;
+  /* position: fixed; */
+  margin-left: 120px;
+  margin-top: 80px;
+}
+.developer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 100px;
+}
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url("./lalitha.jpg");
+  margin-top: -130px;
+  margin-left: 35%;
+}
+
+.d {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid black;
+}
+.dev-name {
+  /* margin: 0; */
+  font-family: "Khula", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+.dev-role {
+  margin: 0;
+  padding: 0;
+  font-family: "Khula", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+@media (max-width: 1439px) {
+  .line1 {
+    width: 500px;
+    height: 250px;
+    margin-left: 47px;
+  }
+  .l1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .l2 {
+    font-size: 80px;
+  }
+  .line2 {
+    width: 100%;
+    height: 400px;
+    margin-top: -150px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .form{
+    /* width: 100px; */
+    margin-top: -400px;
+    height: 700px;
+    /* margin-top: 100px; */
+  }
+  .overlay{
+    margin-top:300px ;
+  }
+.hero{
+  margin-top: 20px;
+  gap: 15px;
+}
+}

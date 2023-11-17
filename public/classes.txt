@@ -1,0 +1,12 @@
+I - CSE - A
+I - CSE - B
+I - CSE - C
+II - CSE - A
+II - CSE - B
+II - CSE - C
+III - CSE - A
+III - CSE - B
+III - CSE - C
+IV -CSE-B
+IV - CSE - B
+IV - CSE - C

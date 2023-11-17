@@ -1,0 +1,95 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Khula:wght@300;400;600;700;800&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+.search-box{
+    width: 600px;
+    background: #fff;
+    margin: 200px auto 0;
+    border-radius: 5px;
+     
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+
+}
+.result-box ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+
+}
+
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.result-box ul li:hover{
+    background: #e9f3ff;
+}
+ */
+
+ .searc{
+  width: 90vw;
+  margin-left: 70px;
+    background-color: white;
+
+ }
+ .f{
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .in{
+    width: 230px;
+    font-size: 18px;
+    height: 40px;
+    font-family: 'Khula', sans-serif;
+ }
+ .sub-input{
+    width: 230px;
+    font-size: 18px;
+    height: 40px;
+    font-family: 'Khula', sans-serif;
+ }
+ .but{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Khula', sans-serif;
+      color: #fff;
+      border-radius: 5px;
+      background-color: #4d4d4d;
+      border: none;
+ }
+ .butt{
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    font-family: 'Khula', sans-serif;
+      color: #fff;
+      border-radius: 10px;
+      background-color: #4d4d4d;
+      border: none;
+ }
